@@ -80,6 +80,7 @@ const Contact = () => {
           ref={formRef}
           onSubmit={sendEmail}
           transition={{ delay: 2, duration: 1 }}
+          aria-label="Message Me"
         >
           <input
             disabled={sending}
@@ -87,6 +88,7 @@ const Contact = () => {
             required
             placeholder="Name"
             name="user_name"
+            aria-label="Your Name"
           />
           <input
             disabled={sending}
@@ -94,6 +96,7 @@ const Contact = () => {
             required
             placeholder="Email"
             name="user_email"
+            aria-label="Your Email"
           />
           <textarea
             disabled={sending}
@@ -101,8 +104,9 @@ const Contact = () => {
             required
             placeholder="Message"
             name="message"
+            aria-label="Your Message"
           />
-          <button disabled={sending} type="submit">
+          <button aria-label="Submit form" disabled={sending} type="submit">
             Submit
           </button>
         </motion.form>

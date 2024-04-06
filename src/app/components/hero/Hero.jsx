@@ -48,10 +48,18 @@ const Hero = () => {
             solid, scalable, and elevate user experiences.
           </motion.h2>
           <motion.div variants={textVariants} className="buttons">
-            <motion.a href="/resume" variants={textVariants}>
+            <motion.a
+              href="/resume"
+              aria-label="My Resume"
+              variants={textVariants}
+            >
               My resume
             </motion.a>
-            <motion.a href="#Contact" variants={textVariants}>
+            <motion.a
+              href="#Contact"
+              aria-label="Contact Me"
+              variants={textVariants}
+            >
               Contact Me
             </motion.a>
           </motion.div>
