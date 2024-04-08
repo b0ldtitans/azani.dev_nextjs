@@ -1,5 +1,4 @@
 import { Inter } from "next/font/google";
-import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" type="image/png" href="/favicon.ico" />
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="google-site-verification"
@@ -28,10 +27,6 @@ export default function RootLayout({ children }) {
           content="freelance full stack developer, full stack developer for hire, react.js developer, next.js developer, node.js developer, express.js developer, mysql developer, sequelize.js developer, typescript developer, hire full stack developer, hire developer, freelance developer"
         />
         <meta name="author" content="Thareq Muhammad Azani" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,1000&display=swap"
-          rel="stylesheet"
-        />
         <title>Thareq Muhammad Azani - Web Developer</title>
       </head>
       <body className={inter.className}>{children}</body>
