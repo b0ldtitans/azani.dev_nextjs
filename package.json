@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
-    "framer-motion": "^10.16.4",
+    "clsx": "^2.1.0",
+    "framer-motion": "^10.18.0",
     "ioredis": "^5.3.2",
     "next": "14.1.4",
     "react": "18.2.0",
@@ -19,7 +20,9 @@
     "react-router-dom": "^6.22.3",
     "redis": "^4.6.13",
     "sass": "^1.68.0",
-    "sonner": "^1.4.41"
+    "simplex-noise": "^4.0.1",
+    "sonner": "^1.4.41",
+    "tailwind-merge": "^2.2.2"
   },
   "devDependencies": {
     "@types/react": "18.2.15",

@@ -1,11 +1,10 @@
 import "./app.scss";
-import dynamic from "next/dynamic";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import Parallax from "./components/parallax/Parallax";
-const Services = dynamic(() => import("./components/services/Services"));
-const Portfolio = dynamic(() => import("./components/portfolio/Portfolio"));
-const Contact = dynamic(() => import("./components/contact/Contact"));
+import Services from "./components/services/Services";
+import Portfolio from "./components/portfolio/Portfolio";
+import Contact from "./components/contact/Contact";
 
 export default function Home() {
   return (
