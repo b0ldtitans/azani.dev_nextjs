@@ -30,11 +30,10 @@ const Contact = () => {
     setIsSending(true);
     try {
       await emailjs.sendForm(
-        // "service_e80yj48",
-        // "template_nt8e4nd",
-        // formRef.current,
-        // "TDTYg33qn0VYAyzZQ"
-        "test"
+        "service_e80yj48",
+        "template_nt8e4nd",
+        formRef.current,
+        "TDTYg33qn0VYAyzZQ"
       );
       toast.success("Email sent successfully");
       formRef.current.reset();
